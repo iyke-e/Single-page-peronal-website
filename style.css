@@ -372,18 +372,26 @@ footer {
         top: -1rem;
       }
     }
-
-    small {
-    }
   }
 
   .img {
     display: inline-block;
-    width: 6rem;
-    background-color: red;
+    width: 7rem;
     aspect-ratio: 1/1;
     border-radius: 50%;
     margin-inline: auto;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .image1 {
+    background-image: url(assets/janet.JPG);
+  }
+  .image2 {
+    background-image: url(assets/femi.jpg);
+  }
+  .image3 {
+    background-image: url(assets/adura.jpg);
   }
 }
 
